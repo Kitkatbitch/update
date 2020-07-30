@@ -6,4 +6,3 @@ apt update && apt list --upgradable
 # Add certain to only update certain packages
 # echo "Would you like to upgrade y/certain/n? "
 # read update_choice
-

@@ -1,1 +1,9 @@
-/usr/local/bin/update
+#!/bin/bash
+
+apt update && apt list --upgradable
+
+# How to make it so ENTER=y?
+# Add certain to only update certain packages
+# echo "Would you like to upgrade y/certain/n? "
+# read update_choice
+
